@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta htp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale = 1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5f3220788.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div id="container">
+        <nav>
+          <img src="logo2.jpeg" class="logo">
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>  
+        </nav>
+        <div class="header-text">
+            <p>Data Scientist</p>
+            <h1>Hi, I'm <span>Mbali</span> From South Africa</h1> 
+        </div>
+    </div>
+</div>
+<!----------------------About Page----------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class = "sub-title">About Me</h1><br>
+                <p>I am a dedicated and skilled statistician with a passion for applying 
+                    advanced data analysis techniques to solve complex problems 
+                    and derive meaningful insights from Big Data. My expertise in 
+                    statistical modeling and predictive analysis allows me to uncover
+                     patterns and trends that support data-driven decision-making. 
+                     With a strong commitment to continuous learning and career growth,
+                    I am confident in my ability to bring value to your organization by 
+                    executing my responsibilities with precision, enthusiasm, and a high
+                    standard of excellence.</p><br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Science</span><br>Building ML Models</li>
+                            <li><span>Data Analystics</span><br>Creating Visuals</li>
+                            <li><span>Web Development</span><br>Designing Web Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024- Current</span><br>Technical Mentor at ALX</li>
+                            <li><span>2023-2024</span><br>Data Science Tutor at ExploreAI</li>
+                            <li><span>2022-2023</span><br>Tutor at Prep2Perfection</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Web Devlopment at GirlCode</li>
+                            <li><span>2022</span><br>BSc Mathematical Statistics at University of Pretoria</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------Service------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Science</h2>
+                <p>explore a field that merges statistics, 
+                    computer science, and industry knowledge to uncover valuable insights from large datasets. </p>
+                    <a href="DS.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-pie"></i>
+                <h2>Data Analystics</h2>
+                <p>Data Analytics involves collecting, processing, 
+                    and analyzing data to uncover insights, support decision-making, and drive business efficiency.</p>
+                    <a href="DA.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web Devlopment</h2>
+                <p>Web development involves designing, building, and maintaining websites and web applications using 
+                    front-end and back-end technologies to ensure functionality, performance, and user experience.</p>
+                    <a href="WD.html">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div><br>
+
+<!-------------------------------Portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class = "sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-0.webp">
+                <div class="layer">
+                    <h3>Machine Learning Model</h3>
+                    <p>Coming Soon</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-1.jpg">
+                <div class="layer">
+                    <h3>Data Analytics</h3>
+                    <p>Using LookerStudio to build insights from collected data set</p>
+                    <a href="https://lookerstudio.google.com/reporting/4435fdc8-cd73-4b0b-bdc8-ab20cf03b19e"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.jpeg">
+                <div class="layer">
+                    <h3>ChatBot</h3>
+                    <p>A chatbot built using NLP techniques that allows you 
+                        to retrieve information about my resume without having to read through the document.</p>
+                    <a href="https://drive.google.com/file/d/1i3Jcl5E5noP9lm7TRnWKAHJPgRNxeu_s/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class = "btn">See more</a>
+    </div>
+</div>
+
+<!----------------------------Contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> mbalijempi89@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+27 76 294 9623</p>
+                <div class="social-icons">
+                    <a href="linkedin.com/in/mbali-jempi"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="MBALIJEMPI_CV (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type = 'submit' class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Copyright © Mbali Jempi.</p> 
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyAJp1sn3BcyY2GB3jJ9XL9ll3T7kQi_BIoH5QNl9NkBLaX79VkCpu_VhY873BNO5tx/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(() => {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => {
+                msg.innerHTML = "Error sending message"
+                console.error('Error!', error.message)
+            })
+    })
+</script>
+
+</body>
+</html>
